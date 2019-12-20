@@ -76,6 +76,7 @@ namespace SmartTransportApp
         private void SearchBtn_Click(object sender, RoutedEventArgs e)
         {
             List<List<string>> results;
+            StationsBox.Clear();
 
             if (AirportsOnly.IsChecked == true)
             {
